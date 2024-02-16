@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+  margin-top: 50px;
+  background-color: #007bff;
+}
+
+h1 {
+  color: #4e4d4d;
+}
+
+.pricing-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.card {
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 80px;
+  margin: 20px;
+  width: 3000px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-50px);
+}
+
+.title {
+  color: #aca0a0;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 36px;
+  color: #007bff;
+  border: #020508;
+}
+
+.features {
+  list-style-type: none;
+  padding: 0;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.features li {
+  margin-bottom: 10px;
+}
+
+.features2 {
+  list-style-type: none;
+  padding: 0;
+  text-align: left;
+  margin-top: 0%;
+  color: #b8b1b1;
+  
+}
+
+.features2 li {
+  margin-bottom: 10px;
+}
+
+.btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 20px;
+  width: 300px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  overflow: hidden;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+ 
